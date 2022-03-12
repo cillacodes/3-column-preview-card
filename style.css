@@ -1,0 +1,65 @@
+/* @import url("https://fonts.google.com/specimen/Big+Shoulders+Display"); */
+/* @import url("https://fonts.google.com/specimen/Lexend+Deca"); */
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15 px;
+  
+}
+
+h1 { 
+  font-family: 'Big Shoulders Display';
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  font-family: 'Lexend Deca';
+  /* font-weight: 400; */
+  color: hsl(0, 0%, 95%);
+}
+
+#main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /* margin: auto; */
+  /* width: 50%; */
+  padding: 10px;
+  border: 3px solid black;
+  margin-top: 150px;
+  margin-left: 100px;
+
+}
+
+.card {
+ /* align-self: center; */
+ border: 3px solid blue;
+}
+
+.learn-more-button {
+ /* todo */
+}
+
+#sedan-card {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#suv-card {
+  background-color: hsl(184, 100%, 22%);
+}
+
+#luxury-card { 
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0; 
+  width: 100%;
+  height: 2.5rem;
+}
