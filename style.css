@@ -1,44 +1,51 @@
-/* @import url("https://fonts.google.com/specimen/Big+Shoulders+Display"); */
-/* @import url("https://fonts.google.com/specimen/Lexend+Deca"); */
-
 body {
   background-color: hsl(0, 0%, 95%);
   font-size: 15 px;
-  
 }
 
 h1 { 
   font-family: 'Big Shoulders Display';
   font-weight: 700;
   color: hsl(0, 0%, 95%);
+  margin: 5px 40px;
 }
 
 p {
   font-family: 'Lexend Deca';
-  /* font-weight: 400; */
-  color: hsl(0, 0%, 95%);
+  font-weight: 400;
+  font-size: 13px;
+  color: hsl(0, 0%, 100%, 0.75);
+  line-height: 1.60;
+  margin: 20px 40px;
+}
+
+img {
+  margin: 20px 40px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  mix-blend-mode: screen;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 40px 40px;
+  border: 1px solid hsl(0, 0%, 100%, 0.75);
+}
+
+button:hover{
+ background-color: transparent;
+ border: 3px solid hsl(0, 0%, 100%, 0.75);
+ color: hsl(0, 0%, 100%, 0.75);
 }
 
 #main-container {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  /* margin: auto; */
-  /* width: 50%; */
   padding: 10px;
-  border: 3px solid black;
-  margin-top: 150px;
-  margin-left: 100px;
-
-}
-
-.card {
- /* align-self: center; */
- border: 3px solid blue;
-}
-
-.learn-more-button {
- /* todo */
+  min-height: 50vh;
+  margin: 200px 30px 200px 30px;
 }
 
 #sedan-card {
@@ -62,4 +69,6 @@ footer {
   bottom: 0; 
   width: 100%;
   height: 2.5rem;
+  text-align: center;
+  font-family: 'Lexend Deca';
 }
